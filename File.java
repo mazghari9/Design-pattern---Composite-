@@ -17,5 +17,11 @@ public class File implements FilesInGeneral  {
     	System.out.println("Name: "+this.Name);
     	System.out.println("Size: "+this.Size);  
     }
+
+    //Method for generating file shortcuts 
+    public File Raccourci(){
+    	File raccourci=new File(this.Name,2);
+    	return raccourci;
+    }
     
 }
