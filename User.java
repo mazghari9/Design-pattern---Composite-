@@ -13,9 +13,9 @@ public class User {
 		File fl3 = new File("file3",100); 
 		
 		//Creating some repositories
-		Repository repo1 = new Repository("repo1",200);
-		Repository repo2 = new Repository("repo2",200);
-		Repository repo3 = new Repository("repo3",200);
+		Repository repo1 = new Repository("repo1",0);
+		Repository repo2 = new Repository("repo2",0);
+		Repository repo3 = new Repository("repo3",0);
 		
 		//adding all created files and created repositories to the grand repository
 		GrandRepo.AddFile(fl1); 
