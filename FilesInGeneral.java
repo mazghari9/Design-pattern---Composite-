@@ -4,4 +4,6 @@ public interface FilesInGeneral {
 	
 	public void ShowDetails();
 	
+	public FilesInGeneral Raccourci();
+	
 }
