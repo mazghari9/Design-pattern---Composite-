@@ -24,6 +24,12 @@ public class User {
 		GrandRepo.AddRepository(repo1); 
 		GrandRepo.AddRepository(repo2);
 		GrandRepo.AddRepository(repo3);
+		
+		//creating a file shortcut for fl1
+		GrandRepo.AddFile(fl1.Raccourci());
+		
+		//creating a repository shortcut for repo1
+		GrandRepo.AddRepository(repo1.Raccourci());
         
 		//adding some files and repositories to the first repository (just for testing) 
         repo1.AddFile(fl1);
