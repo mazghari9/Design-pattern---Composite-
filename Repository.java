@@ -61,5 +61,11 @@ public class Repository implements FilesInGeneral  {
     		System.out.println("+ + + +");
         }
     }
+	
+    //Method for generating repository shortcuts 
+    public Repository Raccourci(){
+    	Repository raccourci=new Repository(this.Name,2);
+    	return raccourci;
+    }
     
 }
